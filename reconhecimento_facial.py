@@ -10,8 +10,10 @@ detector_olhos = cv2.CascadeClassifier('haarcascade_eye.xml')
 # carrega o xml que detecta olhos com oculos
 # detector_olhos = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml') # para utilizar, basta descomentar essa linha
 
-#
+# reconhecimento em vídeo
 # cap = cv2.VideoCapture('oculos1.mp4')
+
+# reconhecimento pela webcam
 cap = cv2.VideoCapture(0)
 
 while 1:
